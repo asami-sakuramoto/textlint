@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <title>アラート表示の練習</title>
+    <title>文章校正</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- ここはページの本文です。現在は空白のページです -->
+    <h1>文章校正ツール</h1>
+    
+    <p>校正したい文章を入力してください。</p>
+    
+    <textarea id="textInput" placeholder="ここに校正したい文章を入力してください"></textarea>
+    
+    <button id="correctButton">校正する</button>
+    
+    <div class="result-title">校正結果:</div>
+    <div id="result">
+        <!-- 校正結果がここに表示されます -->
+    </div>
     
 <script src="script.js"></script>
 </body>
